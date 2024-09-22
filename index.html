@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Vite + Tailwind CSS</title>
+  </head>
+  <body>
+    <div class="absolute">
+      <img class="w-[100%] hidden planshet:block" src="./img/123.svg" alt="" />
+    </div>
+    <header>
+      <div class="container">
+        <div class="flex justify-between mt-7">
+          <div class="block gap-5 notbuk:flex">
+            <img class="notbuk:hidden" src="./img/bur_ger.svg" alt="" />
+            <a class="text-white hidden notbuk:block" href="#">Home</a>
+            <a class="text-white hidden notbuk:block" href="#">Catalog</a>
+            <a class="text-white hidden notbuk:block" href="#">Contact</a>
+            <a class="text-white hidden notbuk:block" href="#">Features</a>
+            <a class="text-white hidden notbuk:block" href="#">Contact</a>
+          </div>
+          <div><img src="./img/logo.svg" alt="" /></div>
+          <div class="flex gap-6">
+            <form
+              class="items-center bg-[#ffffff2f] rounded-lg p-2 w-72 hidden planshet:flex"
+            >
+              <input
+                type="text"
+                placeholder="Search games & products.."
+                class="bg-transparent border-none outline-none text-white flex-grow"
+              />
+              <img class="" src="./img/search.svg" alt="" />
+            </form>
+            <img class="block planshet:hidden" src="./img/search.svg" alt="" />
+            <img src="./img/korzinka.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div
+            class="notbuk:grid grid-cols-2 justify-between gap-[200px] items-center"
+          >
+            <div class="mt-9 ml-7 items-center">
+              <div>
+                <img class="" src="./img/Vector.svg" alt="" />
+              </div>
+              <h2 class="text-x text-[#ffffff9f]">
+                Virtual Headsets
+                <hr class="w-[100px] h-[1px] ml-2 bg-[#BD00FF66]" />
+              </h2>
+              <h2 class="text-5xl font-bold mt-10">
+                Experience a new dimension of reality
+              </h2>
+              <p class="flex gap-3 mt-8 text-[#ffffff9f]">
+                <span><img class="mt-2" src="./img/star.svg" alt="" /></span>
+                Step into the future with our virtual headset, come to life
+                right before your eyes
+              </p>
+              <ul class="notbuk:flex gap-6">
+                <button class="btn bg-[#3DDEED]">
+                  Visit Sttore
+                  <span><img src="./img/ko'rsatkich.svg" alt="" /></span>
+                </button>
+                <button
+                  class="btn border-[0.1px] border-[#FFFFFF1A] planshet:hidden notbuk:flex"
+                >
+                  <span><img src="./img/kompas.svg" alt="" /></span>
+                  Explore
+                </button>
+              </ul>
+              <p class="mt-10">FOLLOW US</p>
+              <div class="flex gap-4">
+                <a
+                  class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                  href="https://x.com/?lang=ru"
+                  ><img src="./img/twitter.svg" alt=""
+                /></a>
+                <a
+                  class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                  href="https://www.instagram.com/"
+                  ><img src="./img/instagram.svg" alt=""
+                /></a>
+                <a
+                  class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                  href="https://store.steampowered.com/"
+                  ><img src="./img/games.svg" alt=""
+                /></a>
+                <a
+                  class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                  href="https://www.facebook.com/?locale=ru_RU"
+                  ><img src="./img/facebook.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="relative mt-[100px]">
+              <img
+                class="hidden planshet:block absolute left-[-180px] top-[-20px]"
+                src="./img/hello_john.png"
+              />
+
+              <img
+                class="hidden planshet:block absolute right-[-40px] bottom-[320px]"
+                src="./img/game.png"
+              />
+
+              <div class="flex justify-center">
+                <span>
+                  <img class="block" src="./img/male.png" />
+                  <img class="h-2" src="./img/Line 3.svg" alt="" />
+                </span>
+              </div>
+              <div class="planshet:flex gap-14 mt-6">
+                <ul class="flex gap-4 mt-6 notbuk:m-0">
+                  <img src="./img/student.svg" alt="" />
+                  <p>Enhanced Education</p>
+                </ul>
+                <ul class="flex gap-4 mt-6 notbuk:m-0">
+                  <img src="img/american football.svg" alt="" />
+                  <p>Training and Simulation</p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="m-0 notbuk:flex justify-between gap-24 mt-40">
+            <div>
+              <img
+                class="hidden planshet:flex items-center justify-center w-[740px] h-[500px]"
+                src="./img/vr_box.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h2 class="text-2xl font-black mt-8 notbuk:text-5xl">
+                Our Virtual Headsets Shine with Unique Features!
+              </h2>
+
+              <div class="flex gap-5 items-center">
+                <div>
+                  <p class="flex gap-3 mt-8 text-[#ffffff]">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    High-resolution OLED or LCD screens: Provide sharp and clear
+                    visuals.
+                  </p>
+                  <p class="flex gap-3 mt-8 text-[#ffffff]">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    Inside-out tracking: Built-in sensors (cameras or other
+                    sensors).
+                  </p>
+                  <p class="flex gap-3 mt-8 text-[#ffffff]">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    High-resolution OLED or LCD screens: Provide sharp and clear
+                    visuals.
+                  </p>
+                </div>
+                <div>
+                  <p class="hidden gap-3 mt-8 text-[#ffffff] planshet:flex">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    Refresh rate: Higher refresh rates reduce motion sickness
+                    and provide.
+                  </p>
+                  <p class="hidden gap-3 mt-8 text-[#ffffff] planshet:flex">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    Eye tracking: Monitors the movement of the user's eyes,
+                    allowing for more.
+                  </p>
+                  <p class="hidden gap-3 mt-8 text-[#ffffff] planshet:flex">
+                    <span
+                      ><img class="mt-2" src="./img/Star_blu.svg" alt=""
+                    /></span>
+                    Refresh rate: Higher refresh rates reduce motion sickness
+                    and provide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="block planshet:hidden"
+                src="./img/vr_box.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="notbuk:grid grid-cols-2">
+            <div class="mt-[150px]">
+              <h2 class="text-3xl">Jane Wilson, Gaming Creator</h2>
+              <p class="mt-6">
+                A virtual headset creator is an individual or company that
+                specializes in designing and manufacturing virtual reality
+                headsets, also known as VR headsets.
+              </p>
+              <button class="btn bg-[#3DDEED1A] text-[#3DDEED]">
+                Visit Sttore
+                <span><img src="./img/korstkich_kok.svg" alt="" /></span>
+              </button>
+
+              <div class="flex relative mt-5">
+                <img class="absolute" src="./img/trazition_1.svg" />
+                <img class="absolute left-[40px]" src="./img/trazition_2.svg" />
+                <img class="absolute left-[90px]" src="./img/trazition_3.svg" />
+                <img class="absolute left-[140px]" src="./img/traziton_4.svg" />
+                <img class="absolute left-[190px]" src="./img/traziton_5.svg" />
+                <p class="absolute left-[270px] top-5">+258K Views</p>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="mt-[150px] planshet:m-0">
+                <img
+                  class="w-[450px] h-[500px] absolute"
+                  src="./img/a_woman.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="bg-white w-[450px] h-[260px] p-[20px] top-[330px] rounded-md absolute notbuk:left-[-80px] planshet:w-[350px]"
+              >
+                <ul class="flex gap-2">
+                  <img src="./img/jane_wilson.svg" alt="" />
+                  <p class="text-black">Jane Wilson <br />@jjwilson</p>
+                </ul>
+                <p class="text-[22px] text-black">
+                  Virtual headsets of the future is live!
+                </p>
+                <p class="text-black">
+                  09:28 · 2/21/20 ·
+                  <span class="text-[#4d95de]">Twitter Web App</span>
+                </p>
+                <hr class="w-[100%] h-1" />
+                <p class="text-black">24,5k Retweets 104,21k Likes</p>
+                <hr class="w-[100%] h-1" />
+                <ul class="flex justify-center gap-[75px] mt-[25px]">
+                  <img src="./img/comment1.svg" />
+                  <img src="./img/retweet2.svg" />
+                  <img src="./img/Heart3.svg" />
+                  <img src="./img/Share4.svg" />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="">
+            <div class="pt-[630px] notbuk:flex justify-between items-center">
+              <h2 class="pt-4 text-[24px] planshet:text-[56px]">Top Games</h2>
+              <p class="pt-4">
+                If you buy video 2 games, you will receive 1 <br />
+                video game for free, along with a
+                <span class="text-[#3DDEED]"> 50% </span> discount.
+              </p>
+              <li class="pt-4 gap-4 hidden notbuk:flex">
+                <img
+                  class="hidden notbuk:block"
+                  src="./img/left_side.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden notbuk:block"
+                  src="./img/right_side.svg"
+                  alt=""
+                />
+              </li>
+            </div>
+          </div>
+          <!--shotan-->
+          <div class="relative w-full overflow-hidden">
+            <div class="flex animate-marquee">
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/horizon.png" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">
+                  Horizon : Call of the mountain
+                </p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/half_life.svg" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">Half - Life : ALYX</p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img
+                  src="./img/fight_night_champion.png"
+                  class="w-full h-auto"
+                />
+                <p class="text-center text-white mt-2">Fight Night Champion</p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/horizon.png" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">
+                  Horizon : Call of the mountain
+                </p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/half_life.svg" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">Half - Life : ALYX</p>
+              </div>
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img
+                  src="./img/fight_night_champion.png"
+                  class="w-full h-auto"
+                />
+                <p class="text-center text-white mt-2">Fight Night Champion</p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/horizon.png" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">
+                  Horizon : Call of the mountain
+                </p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img src="./img/half_life.svg" class="w-full h-auto" />
+                <p class="text-center text-white mt-2">Half - Life : ALYX</p>
+              </div>
+
+              <div class="w-1/4 flex-shrink-0 p-4">
+                <img
+                  src="./img/fight_night_champion.png"
+                  class="w-full h-auto"
+                />
+                <p class="text-center text-white mt-2">Fight Night Champion</p>
+              </div>
+            </div>
+          </div>
+
+          <!--shotgach-->
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <ul class="w1/2 m-auto w-auto">
+            <h2 class="text-[24px] text-center mb-[30px]">F.A.Q.</h2>
+            <li class="flex justify-between faq_item bg-[#FFFFFF0D]">
+              <div class="flex gap-[32px]">
+                <div class="flex flex-col justify-between gap-3">
+                  <p class="pt-[25px] m-5">
+                    What are the different types of virtual headsets available?
+                  </p>
+                  <p class="hidden faq_answer text-[24px] m-5">
+                    How does a virtual headset work?
+                  </p>
+                  <p class="hidden faq_answer m-5">
+                    Virtual headsets are equipped with various sensors to track
+                    the user's movements. These sensors can include
+                    accelerometers, gyroscopes, and sometimes external cameras
+                    or base stations. They constantly monitor the position and
+                    orientation of the headset and sometimes the user's hand
+                    controllers. The headset has one or two high-resolution
+                    displays, one for each eye, positioned in front of the
+                    user's eyes. These displays show stereoscopic 3D images,
+                    creating a sense of depth and immersion. Between the
+                    displays and the user's eyes, help focus the images and
+                    adjust them for the user's field of view.
+                  </p>
+                </div>
+              </div>
+              <button class="py-[9.5px] px-[7.5px]">
+                <svg
+                  class="faq_toogle"
+                  width="31"
+                  height="31"
+                  viewBox="0 0 31 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.8333 15.5L24.012 13.6787L16.7916 20.8862V5.16663H14.2083L14.2083 20.8862L6.98783 13.6787L5.16658 15.5L15.4999 25.8333L25.8333 15.5Z"
+                    fill="white"
+                    class="faq_tooglet"
+                  />
+                </svg>
+              </button>
+            </li>
+
+            <li class="flex justify-between faq_item bg-[#FFFFFF0D] mt-3">
+              <div class="flex gap-[32px]">
+                <div class="flex flex-col justify-between gap-3">
+                  <p class="pt-[25px] m-5">
+                    What are the different types of virtual headsets available?
+                  </p>
+                  <p class="hidden faq_answer text-[24px] m-5">
+                    Do I need a powerful computer to use a virtual headset?
+                  </p>
+                  <p class="hidden faq_answer m-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus nostrum veniam amet debitis quos harum maxime est
+                    officia earum tempore? Illum accusantium ad nemo! Rem
+                    accusamus assumenda in architecto culpa incidunt quo nemo et
+                    ab atque laboriosam aliquid rerum autem, debitis soluta
+                    consequatur deserunt ipsam voluptatibus minima adipisci
+                    veritatis tempore. Provident cum repellendus, similique enim
+                    eveniet a mollitia facilis aliquam quasi beatae amet,
+                    ducimus est minus vero! Soluta, laudantium sint. Pariatur
+                    voluptas quaerat molestiae ducimus iure, corporis neque
+                    dolorum quidem repudiandae numquam error provident facilis
+                    assumenda suscipit? Similique in dolorem aspernatur nobis
+                    asperiores. Ad saepe suscipit omnis repudiandae cum!
+                    Commodi?
+                  </p>
+                </div>
+              </div>
+              <button class="py-[9.5px] px-[7.5px]">
+                <svg
+                  class="faq_toogle"
+                  width="31"
+                  height="31"
+                  viewBox="0 0 31 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.8333 15.5L24.012 13.6787L16.7916 20.8862V5.16663H14.2083L14.2083 20.8862L6.98783 13.6787L5.16658 15.5L15.4999 25.8333L25.8333 15.5Z"
+                    fill="white"
+                    class="faq_tooglet"
+                  />
+                </svg>
+              </button>
+            </li>
+
+            <li class="flex justify-between faq_item bg-[#FFFFFF0D] mt-3">
+              <div class="flex gap-[32px]">
+                <div class="flex flex-col justify-between gap-3">
+                  <p class="pt-[25px] m-5">
+                    What are the main applications of virtual headsets?
+                  </p>
+                  <p class="hidden faq_answer text-[24px] m-5">
+                    How does a virtual headset work?
+                  </p>
+                  <p class="hidden faq_answer m-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odit odio perferendis quia corrupti distinctio aut facere
+                    ratione. Nostrum itaque facere a, dicta corrupti omnis
+                    laboriosam neque veniam impedit perspiciatis libero maiores.
+                    Saepe, provident exercitationem vel porro doloribus dolorem
+                    ipsam nam, reprehenderit suscipit velit minus aliquam quis
+                    repellat placeat blanditiis delectus est sed ea dolor
+                    tenetur iure eveniet commodi. Non, ipsum ullam? Porro
+                    mollitia, minus nesciunt voluptas rerum aperiam voluptatibus
+                    dolorem repellendus quibusdam illo at? Expedita dolor, autem
+                    quia enim officiis nisi, placeat incidunt ullam consequatur
+                    illum non eius, asperiores odit atque nulla commodi ex
+                    obcaecati! Nobis nam expedita quaerat ad!
+                  </p>
+                </div>
+              </div>
+              <button class="py-[9.5px] px-[7.5px]">
+                <svg
+                  class="faq_toogle"
+                  width="31"
+                  height="31"
+                  viewBox="0 0 31 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.8333 15.5L24.012 13.6787L16.7916 20.8862V5.16663H14.2083L14.2083 20.8862L6.98783 13.6787L5.16658 15.5L15.4999 25.8333L25.8333 15.5Z"
+                    fill="white"
+                    class="faq_tooglet"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#FFFFFF0D]">
+      <div class="container">
+        <div
+          class="planshet:flex flex-wrap justify-between notbuk:grid grid-cols-4 gap-[100px] mt-[150px] pt-[80px]"
+        >
+          <div>
+            <li>
+              <img src="./img/logo.svg" alt="" />
+            </li>
+            <li class="flex gap-4">
+              <a
+                class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                href="https://x.com/?lang=ru"
+                ><img src="./img/twitter.svg" alt=""
+              /></a>
+              <a
+                class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                href="https://www.instagram.com/"
+                ><img src="./img/instagram.svg" alt=""
+              /></a>
+              <a
+                class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                href="https://store.steampowered.com/"
+                ><img src="./img/games.svg" alt=""
+              /></a>
+              <a
+                class="border-[0.1px] border-[#FFFFFF1A] p-2 rounded-md mt-3"
+                href="https://www.facebook.com/?locale=ru_RU"
+                ><img src="./img/facebook.svg" alt=""
+              /></a>
+            </li>
+            <p class="mt-[24px]">(+994) 199-28-786</p>
+          </div>
+          <div class="flex gap-6">
+            <ul class="">
+              <li class="mt-7"><p>Menu</p></li>
+              <li class="mt-5"><a href="#">Home</a></li>
+              <li class="mt-5"><a href="#">Catalog</a></li>
+              <li class="mt-5"><a href="#">Features</a></li>
+              <li class="mt-5"><a href="#">Contact</a></li>
+            </ul>
+            <ul class="">
+              <li class="mt-7"><p>Company</p></li>
+              <li class="mt-5"><a href="#">Login</a></li>
+              <li class="mt-5"><a href="#">Sign Up</a></li>
+              <li class="mt-5"><a href="#">Privacy</a></li>
+              <li class="mt-5"><a href="#">Products</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="planshet:hidden notbuk:block mt-3">
+              Subscribe Our News Letter
+            </p>
+            <p class="planshet:hidden notbuk:block text-[#ffffff9b] mt-3">
+              Sure, please provide your email address to subscribe to newsletter
+            </p>
+            <ul class="">
+              <input
+                class="w-[370px] h-[62px] mt-6 rounded p-[26px]"
+                type="email"
+                placeholder="Enter your mail..."
+              />
+              <button
+                class="w-[370px] h-[62px] text-center items-center bg-[#3DDEED] mt-6 rounded"
+              >
+                Subscribe
+              </button>
+            </ul>
+          </div>
+        </div>
+        <img class="w-[100%] h-1 mt-6" src="./img/Line 4.svg" alt="" />
+        <p class="pb-6 mt-6 text-center">
+          © 2023 Your Company Name. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

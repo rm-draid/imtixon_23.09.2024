@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0f041c;
+  list-style-type: none;
+}
+h2,
+p,
+button {
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  background: blue;
+}
+.btn {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  width: 200px;
+  height: 54px;
+  margin-top: 24px;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.626);
+}
+a:hover {
+  border-bottom: 2px solid red;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.faq_item:hover .faq_answer {
+  display: block;
+}
+
+.faq_item:hover .faq_toogle {
+  transform: rotate(180deg);
+  background-color: #bd00ff;
+}
